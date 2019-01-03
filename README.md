@@ -1,3 +1,4 @@
+
 # Simple Login System
 #### Created using Apache, MySQL, and PHP.
 
@@ -12,7 +13,8 @@ user_last varchar(256) not null,
 user_email varchar(256) not null,
 user_uid varchar(256) not null,
 user_pwd varchar(256) not null
-);```
+);
+```
 ![You can space it out if you want, it works without it.](http://yursite.cf/quizwiz.png)
 3. Once you do that, hit go. What you just did is told the database to create a table called 'users' that has data in it with user information.
 
