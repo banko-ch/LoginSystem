@@ -2,7 +2,7 @@
 # Simple Login System
 #### Created using Apache, MySQL, and PHP.
 
-###### To use this, first we will need to create a databasse inside PHPMyAdmin (assuming you have already setup a web server with the latest versions of Apache, PHP, and MySQL)
+###### To use this, first we will need to create a database. I recommend using PHPMyAdmin for this. You will also need an Apache or Nginx webserver, PHP 5.0.0 or higher, and you will need a MySQL or MariaDB database.
 
 1. Login into PHP MyAdmin and set up a new database called "loginsystem" this step is very important for a few reasons. You are setting up the database where all the users login information goes, and it needs to be called that because that's the name of the database that the various HTML and PHP files will be looking for. However, if you really want to change the name of the database for whatever reason then feel free to edit the files.
 2. After you've done that, go into the database and click on the SQL and in the editor type these few lines of code 
