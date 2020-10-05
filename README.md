@@ -15,7 +15,10 @@
   user_pwd varchar(256) not null
 );
 ```
+
 ![You can space it out if you want, it works without it.](https://i.imgur.com/1olPDe9.png)
+
+
 3. Once you do that, hit go. What you just did is told the database to create a table called 'users' that has data in it with user information.
 
 4. Now go to your URL where the server is located and signup
