@@ -4,8 +4,10 @@
 
 ###### To use this, first we will need to create a database. I recommend using PHPMyAdmin for this. You will also need an Apache or Nginx webserver, PHP 5.0.0 or higher, and you will need a MySQL or MariaDB database.
 
-1. Login into PHP MyAdmin and set up a new database called "loginsystem" this step is very important for a few reasons. You are setting up the database where all the users login information goes, and it needs to be called that because that's the name of the database that the various HTML and PHP files will be looking for. However, if you really want to change the name of the database for whatever reason then feel free to edit the files.
-2. After you've done that, go into the database and click on the SQL and in the editor type these few lines of code 
+1. Login into your database and set up a new database called "loginsystem" this step is very important for a few reasons. You are setting up the database where all the users login information goes, and it needs to be called that because that's the name of the database that the various HTML and PHP files will be looking for. However, if you really want to change the name of the database for whatever reason then feel free to edit the files.
+
+2. After you've done that, you will want to create a new table inside of the database. I already did all the work for you so all you should have to do is copy and paste the lines of code below into the SQL section of PHPMyAdmin or just pop it into the terminal with your database server. Either way should work just fine.
+
 ```
 CREATE TABLE users (
   user_id int(11) not null AUTO_INCREMENT PRIMARY KEY,
