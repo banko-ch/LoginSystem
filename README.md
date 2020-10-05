@@ -20,4 +20,4 @@ user_pwd varchar(256) not null
 
 4. Now go to your URL where the server is located and signup
 
-#### I do not care how you use this system, you can use it for your own website if you want, or you can completely change everything. I how this readme file was helpful to use. Have fun!
+#### I don't care how you use this system, you can use it for your own website if you want or you can completely change everything, totally up to you. I hope this README file was helpful to you. Have fun!
