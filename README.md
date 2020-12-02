@@ -1,5 +1,5 @@
 
-# Simple Login System ![php](https://img.shields.io/badge/php-hypertext%20preprocessor-blueviolet?style=for-the-badge&logo=php&logoColor=white)
+# Simple Login System ![php](https://img.shields.io/badge/PHP-Hypertext%20Preprocessor-blueviolet?style=flat-square&logo=php&logoColor=white)
 #### Created using Apache, MySQL, and PHP.
 
 ###### To use this, first we will need to create a database. I recommend using PHPMyAdmin for this. You will also need an Apache or Nginx webserver, PHP 5.0.0 or higher, and you will need a MySQL or MariaDB database.
